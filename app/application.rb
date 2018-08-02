@@ -5,7 +5,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
 
-    time = Time.now
+    time = Time.new
     resp.write "#{time}"
   end
 
