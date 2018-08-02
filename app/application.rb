@@ -6,7 +6,7 @@ class Application
     resp = Rack::Response.new
 
     time = Time.at(0)
-    resp.write "time"
+    resp.write "#{time}"
   end
 
 end
