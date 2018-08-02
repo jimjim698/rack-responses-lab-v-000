@@ -8,5 +8,5 @@ class Application
     time = Time.new
     resp.write "#{time}\n"
   end
-
+  resp.finish
 end
