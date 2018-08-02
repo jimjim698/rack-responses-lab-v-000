@@ -1,4 +1,4 @@
-require 'pry'
+require_relative 'pry'
 
 class Application
 
@@ -7,6 +7,6 @@ def call
 
 binding.pry
  ball = Time.new
- end 
+ end
 
 end
